@@ -1,0 +1,267 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuraciones globales */
+
+body {
+  background-color: rgb(253, 248, 248);
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  padding: 2px;
+  width: 768px;
+}
+
+.wrapper {
+	width: 768px;
+	margin: 0;
+}
+
+header {
+  width: 768px;
+  display:flex;
+  background-color: #8F00FF;
+  height: 100px;
+	z-index: 10;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+  }
+
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: poppins;
+  color: #fff;
+  letter-spacing: 5px;
+  }
+
+nav {
+  float: right;
+  line-height: 100px;
+  }
+
+nav a {
+  text-decoration: none;
+  font-family: poppins;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin: 0 10px;
+  color: #fff;
+  }
+
+nav a:hover {
+  text-decoration: underline 3px solid;
+  text-decoration-color: #566ed9;
+  opacity: 0.8;
+}
+
+.banner-area {
+  width: 769px;
+  height: 300px;
+  top: 100px;
+  background-image:url(/img/000.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  }
+
+.banner-area h1 {
+  padding-top: 3%;
+  font-size: 70px;
+  font-family: 'Permanent Marker', sans-serif;
+  text-transform: uppercase;
+  color: #c913cc;   
+  text-align:center;
+  }
+
+h2 {
+  text-align: center;
+  color:rgb(224, 52, 161);
+  font-size: 28px;
+} 
+
+h3 {
+  text-align: center;
+  color:#7f00b2;
+}
+
+article{
+  font-size: 18px;
+  text-align: center;
+}
+
+.Condiciones {
+  background-color: #bf7ed5;
+  border: 1px solid violet;
+  padding: 2px;
+  color:whitesmoke;
+}
+
+ul {
+  color:whitesmoke;
+  list-style:inside;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main .inicio {
+  max-width: 768px;
+  font-size: 20px;
+  color:#000;  
+  align-items:center;
+}
+
+.flex {
+  display: flex;
+ 
+}
+.flex div {
+  margin: 5px;
+  flex-basis: 100%;
+  color: black;
+  max-width: 500px;
+  text-align: justify;
+  font-size: 14px;;
+  width: 500px;
+  background-color: #8F00FF;
+  font-size: 14px;
+  color:white;
+  border:  1px solid #000;
+  padding: 2px;
+  align-items: center;
+}
+
+button {
+  padding: 16px 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #6e1271;
+  background: #8F00FF;
+  color:#fff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 3px rgb(255, 255, 255, 0.5);
+  align-items: center;
+}
+
+button:hover {
+  background: #566ed9;
+}
+
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  width: 768px;
+}
+
+.flex2 .container div{
+  border:  1px solid #7f00b2;
+  margin: 2px;
+  background-color: #ab49cc;
+  max-width: 252px;
+  text-align: justify;
+  padding: 3px;
+  flex-basis: 100%;
+  color:rgb(93, 157, 236);
+  box-sizing: border-box;
+
+}
+.container div img{
+  width: 246px;
+  height: 200px;
+  border-radius: 0px;
+  align-items:center;
+  text-align:center;
+}
+
+.container div p {
+  color:white;
+  font-size: 14px;
+  text-align: justify;
+  width: 246px;
+}
+
+.container div h3 {
+  color:rgb(42, 17, 170);
+  font-size: 16px;
+  text-align: justify;
+  width: 200px;
+}
+
+.contactos {
+  display: flex;
+  background-color:#cb2599;
+  color:white;
+  font-size: 14px;
+  width: 768px;
+}
+.contactos h2{
+  color:#500c67;
+  font-size: 26px;
+}
+.contactos ul {
+  list-style:none;
+}
+
+.contactos .form {
+  margin: 0px;
+  flex-basis: 100%;
+  align-items:left;
+  text-align:left;
+  padding: 10px;
+  color: white;
+}
+
+.form-group {
+  border: 1px solid tomato;
+  padding: 10px;
+  margin: 2px;
+  width: 730px;
+}
+
+input [type="text"], input [type="email"] {
+  width: 100%;
+  vertical-align: middle;  
+  background: #fff;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  color:#000;
+}
+
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: whitesmoke;
+  width: 100%;
+  vertical-align: middle;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+  background: #fff;
+}
+
+footer{
+  text-align: center;
+  font-size: 12px;
+  color: #6e1271;  
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px){
+  header, section {
+    height: 100px;
+    min-height: auto;
+    width: 100%;
+    }
+  }
