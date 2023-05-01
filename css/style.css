@@ -1,7 +1,7 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Configuraciones globales */
@@ -32,7 +32,7 @@ header {
   width: 30%;
   float: left;
   line-height: 100px;
-  }
+}
 
 .logo a {
   text-decoration: none;
@@ -40,12 +40,12 @@ header {
   font-family: poppins;
   color: #fff;
   letter-spacing: 5px;
-  }
+}
 
 nav {
   float: right;
   line-height: 100px;
-  }
+}
 
 nav a {
   text-decoration: none;
@@ -54,7 +54,7 @@ nav a {
   font-size: 18px;
   margin: 0 10px;
   color: #fff;
-  }
+}
 
 nav a:hover {
   text-decoration: underline 3px solid;
@@ -70,7 +70,7 @@ nav a:hover {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  }
+}
 
 .banner-area h1 {
   padding-top: 3%;
@@ -79,7 +79,7 @@ nav a:hover {
   text-transform: uppercase;
   color: #c913cc;   
   text-align:center;
-  }
+}
 
 h2 {
   text-align: center;
@@ -121,8 +121,8 @@ main .inicio {
 
 .flex {
   display: flex;
- 
 }
+
 .flex div {
   margin: 5px;
   flex-basis: 100%;
@@ -171,8 +171,8 @@ button:hover {
   flex-basis: 100%;
   color:rgb(93, 157, 236);
   box-sizing: border-box;
-
 }
+
 .container div img{
   width: 246px;
   height: 200px;
@@ -202,10 +202,12 @@ button:hover {
   font-size: 14px;
   width: 768px;
 }
+
 .contactos h2{
   color:#500c67;
   font-size: 26px;
 }
+
 .contactos ul {
   list-style:none;
 }
